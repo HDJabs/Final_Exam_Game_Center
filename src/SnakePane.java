@@ -109,7 +109,7 @@ public class SnakePane extends Pane{
                 snake.setCenterY(0);
             }        
         }
-/* 
+
         @Override
         public void start(Stage primaryStage)
         {
@@ -160,5 +160,5 @@ public class SnakePane extends Pane{
             t.start();
         }
 
-*/
+
 }
