@@ -1,5 +1,4 @@
 import javafx.scene.Scene;
-import javafx.scene.input.KeyCode;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
@@ -22,11 +21,7 @@ public class SceneSetterController {
 
         stage.setScene(scene);
 
-       
     }
-
-    //move this method in a more appropriate spot
-
 
     public void openMineSweeperGame(){
         MineSweeperPane MSPane = new MineSweeperPane();
@@ -38,16 +33,7 @@ public class SceneSetterController {
         MSPane.requestFocus();
 
     }
-/*
-    public void openBasicGamePane(){
-        BorderPane bPane = new BorderPane();
-        GamePane gp = new GamePane();
-        bPane.setCenter(gp);
-        stage.setTitle("Basic Pane");
-        Scene scene = new Scene(bPane, 200, 200);
-        stage.setScene(scene);
-    }
-*/
+
     public void openSnakeGame(){
         SnakePane SPane = new SnakePane();
         SPane.setFocusTraversable(true);        

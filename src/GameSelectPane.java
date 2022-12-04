@@ -7,9 +7,8 @@ public class GameSelectPane extends Pane{
     int w = 120;
 
     public GameSelectPane(){
-        getChildren().add(new SnakeButton("Snake", h, w, 120, 60));
-        
-
+        SnakeButton snakeButton = new SnakeButton("Snake", h, w, 120, 60);
+        getChildren().add(snakeButton);
         mineSweeperBtn = new MineSweeperButton("MineSweeper", h, w, 120, 120);
         getChildren().add(mineSweeperBtn);
     }

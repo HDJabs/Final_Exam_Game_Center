@@ -6,11 +6,8 @@ public class BackButton extends Button{
         super("Back To Games");
         setHeight(30);
         setWidth(90);
-        //setLayoutX(x);
-        //setLayoutY(y);
-
         setOnAction( e->{
-            System.out.println("Back Button hasbeen pressed!");
+            System.out.println("Back Button has been pressed!");
             App.cont.openGameSelectMenu();
         });
     }   
