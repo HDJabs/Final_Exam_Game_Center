@@ -15,6 +15,7 @@ public class SnakePane extends Pane{
 
     int height = 600;
     int width = 800;
+    
 
     private static final int WIDTH = 600;
     private static final int HEIGHT = 500;

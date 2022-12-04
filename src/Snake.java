@@ -16,6 +16,7 @@ public class Snake  extends Circle
         super(d1,d2,d3);
         tails = new ArrayList<>();
         current = Moving.UP;
+        
 
     }
 
