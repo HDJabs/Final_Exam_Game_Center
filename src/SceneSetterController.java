@@ -41,6 +41,8 @@ public class SceneSetterController {
 
         Scene scene = new Scene(SPane, SPane.getWidth(), SPane.getHeight());
         stage.setScene(scene);
-        SPane.requestFocus();;
+        SPane.requestFocus();
+        SnakePane snakePane = new SnakePane();
+        snakePane.start(stage);
     }
 }
