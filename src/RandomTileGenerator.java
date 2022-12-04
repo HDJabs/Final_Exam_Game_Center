@@ -16,7 +16,7 @@ public class RandomTileGenerator {
         this.cols = board[1].length;
         field = new boolean[2][rows][cols]; //this is a 3d array!
         //[0][][] is "is this spot free to call from? (each spot will only be called from once)"  
-        //[1][][] is "is this spot a bomb?"
+        //[1][][] is "is this spot a dirt tile?"
         
     }
 
