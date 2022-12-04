@@ -16,7 +16,7 @@ public class MineSweeperPane extends Pane{
     int cols = 15;
     int rows = 15;
     boolean digging = true;
-    int numberOfBombs = 4; // out of 225
+    int numberOfBombs = 40; // out of 225
 
     int xStart = 30;
     int yStart = 60;
